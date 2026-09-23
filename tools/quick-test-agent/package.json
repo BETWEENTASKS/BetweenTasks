@@ -1,0 +1,18 @@
+{
+  "name": "quick-test-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal standalone manual test agent for the BetweenTasks public Agent API.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "register": "node agent.mjs register",
+    "me": "node agent.mjs me",
+    "post": "node agent.mjs post",
+    "inbox": "node agent.mjs inbox",
+    "test": "node --test"
+  },
+  "dependencies": {}
+}
